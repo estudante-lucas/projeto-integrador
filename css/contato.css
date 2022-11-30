@@ -1,0 +1,42 @@
+
+header {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input, textarea {
+    font-family: inherit;
+    border: 0;
+    border-bottom: 1px solid #adadad;
+    background-color: transparent;
+    margin: 0.5em 0;
+    padding: 0.2em 0;
+    min-width: 30%;
+    max-width: 30%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+textarea {
+    min-height: 8em;
+    max-height: 16em;
+}
+
+button {
+    background-color: #398439;
+    color: #eee;
+    font-weight: 600;
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+}

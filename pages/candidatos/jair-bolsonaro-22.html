@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <link rel="stylesheet" href="../../css/global.css">
+        <link rel="stylesheet" href="../../css/candidato.css">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ciro Gomes - Acompanhamento eleitoral</title>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<nav>
+			<menu>
+				<li class="menu-selected">
+					<a href="../../index.html">
+						Início
+					</a>
+				</li>
+				<li>
+					<a href="../lista-candidatos.html">
+						Candidatos
+					</a>
+				</li>
+				<li>
+					<a href="../contato.html">
+						Contato
+					</a>
+				</li>
+            </menu>
+		</nav>
+
+		<section>
+			<header>
+                <img 
+                    src="../../img/jair-bolsonaro-perfil.jpeg" 
+                    alt="Jair Bolsonaro" 
+                />
+				<h2>
+					Jair Bolsonaro - 22
+				</h2>
+				<h4>
+					Presidente - BRASIL/BR
+				</h4>
+				<h4>
+					Partido Liberal - PL
+				</h4>
+			</header>
+
+			<article>
+				<h3>Pesquisa de desempenho do candidato</h3>
+				<br>
+				<input type="date" name="dataInicial" id="dataInicial" min="2022-10-07" max="2022-10-27" placeholder="Data incial" onchange="setMinDataFinal()">
+				<input type="date" name="dataFinal" id="dataFinal" min="2022-10-07" max="2022-10-27" placeholder="Data final">
+				<button onclick="showData('jair-bolsonaro')">Pesquisar</button>
+			</article>
+			<br>
+			<article class="conteudo" >
+				<img id="grafico"/>
+			</article>
+
+		</section>
+
+		<footer>
+			Todos os direitos reservados
+		</footer>
+	</body>
+</html>

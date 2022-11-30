@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+img {
+    width: 10em;
+}
+
+p {
+    padding: 1em;
+}
+
+button {
+    background-color: #398439;
+    color: #eee;
+    font-weight: 600;
+    padding: 0.2em 1em;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+#grafico {
+    width: 50%;
+}
